@@ -31,7 +31,7 @@ body{
   background-size: cover ;
   background-position: center;
   /*Req 1* hw additions*/
-  font-family:'Andika', sans-serif;
+  font-family:"Andika", sans-serif;
   background-image: url("../images/pigeon-background.JPEG");
   background-repeat: no-repeat;
   background-color: #DDDDDD;
@@ -42,7 +42,7 @@ h1{
   color: #c12258;
   font-size: 2em;
   /*Req 2 hw addition*/
-  text-align: centered;
+  text-align: center;
   line-height: 2;
 }
 
