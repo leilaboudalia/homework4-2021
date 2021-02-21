@@ -31,7 +31,7 @@ body{
   background-size: cover ;
   background-position: center;
   /*Req 1* hw additions*/
-  font-family:"Andika", sans-serif;
+  font-family: "Andika", sans-serif;
   background-image: url("../images/pigeon-background.JPEG");
   background-repeat: no-repeat;
   background-color: #DDDDDD;
@@ -39,7 +39,7 @@ body{
 }
 
 h1{
-  color: #c12258;
+  color:#C12258;
   font-size: 2em;
   /*Req 2 hw addition*/
   text-align: center;
@@ -54,7 +54,7 @@ p{
 a{
   /*Req 4 hw addition*/
   font-size: 16px;
-  color:#c12258;
+  color: #B21F50;
   text-decoration: wavy underline;
 }
 
@@ -115,19 +115,19 @@ table{
 
 /*part 7 thead/tbody*/
 thead tr:first-child th:first-child{
-  border-radius: 10px 0px 0px 0px;
+  border-top-left-radius: 10px;
 }
 
 thead tr:first-child th:last-child{
-  border-radius: 0px 10px 0px 0px;
+  border-top-right-radius: 10px;
 }
 
 tbody tr:last-child th:first-child{
-  border-radius: 0px 0px 0px 10px;
+  border-bottom-left-radius: 10px;
 }
 
 tbody:last-child td:last-child{
-  border-radius: 0px 0px 10px 0px;
+  border-bottom-right-radius: 10px;
 }
 /*Add selectors and rules here*/
 
